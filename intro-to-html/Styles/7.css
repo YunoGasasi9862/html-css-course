@@ -1,0 +1,83 @@
+.Nier
+{
+   width: 200px;
+   /*height: 200px;
+ /* object-fit: cover;  /*doesnt distort it but make it center if the height is given*/
+   /*object-position: center;*/
+   height: 200px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 500px;
+   vertical-align: middle;
+
+}
+.bar
+{
+   border: none;
+   border-radius: 10px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 10px;
+   font-size: 15px;
+
+}
+.SearchBar
+{
+     border: none;
+     width: 300px; /*Always make use of this Bilal!*/
+     border-radius: 20px;
+     padding-left: 10px;
+     padding-right: 100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 15px;
+     margin-left: 20px;
+     box-shadow: 0px 0px 3px rgb(105, 92, 35);
+
+
+
+}
+p{
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(102, 107, 109);
+
+}
+.Email
+{
+   margin-bottom: 5px;
+   font-size: 18px;
+   color: rgb(102, 107, 109);
+}
+.textbar
+{
+    width: 300px;
+   height: 25px;
+    border-radius: 4px;
+    border-color: rgb(184, 179, 179);
+    border-style: solid; /*I need to remember this!! Border-style:solid*/
+}
+.Sign
+{
+margin-top: 15px;
+font-size: 13px;
+color:rgb(46, 47, 48);
+
+}
+.Agree
+{
+margin-top:15px;
+background-color: rgb(44, 98, 214);
+color: white;
+padding-right: 50px;
+padding-left: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 15px;
+border: none;
+border-radius: 20px;
+width: 400px;
+
+}

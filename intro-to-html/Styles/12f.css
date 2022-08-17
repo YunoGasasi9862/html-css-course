@@ -1,0 +1,41 @@
+.Main
+{
+    width:1000px;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(150, 61, 223);
+}
+.Home
+{
+  padding-left: 10px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+}
+.Search
+{
+   
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 20px;
+}
+.Button
+{
+    
+  margin-right: 10px;
+  color:white;
+  background-color: rgb(150, 61, 223);
+  border-color: white;
+  border-style: solid;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 6px;
+  padding-left: 6px;
+
+}

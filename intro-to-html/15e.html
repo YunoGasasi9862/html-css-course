@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           .MainContainer
+           {
+             display: inline-block;
+             position: relative;
+           }
+           .image
+           {
+            width:300px;
+            Height:300px;
+            object-fit: cover;
+            object-position: center;
+            border-style: solid;
+            border-color: rgb(136, 31, 168);
+
+           }
+           body{
+            height:2000px;
+           }
+           .tag
+           {
+            position:absolute;
+            top:10px;
+            right:0px;
+            background-color: black;
+            color:white;
+            font-family: Roboto, Arial;
+            font-size: 15px;
+            padding-top:8px;
+            padding-bottom: 8px;
+            padding-right: 8px;
+            padding-left: 8px;
+
+
+           }
+           .light
+           {
+             position: absolute;
+             bottom:6px;
+             right:1px;
+             left:2px;
+             width:300px;
+             background-color: rgba(255, 255, 255, 0.7);
+             height:80px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+           }
+  
+           .button
+           {
+                position: absolute;
+                padding-top:10px;
+                padding-bottom: 10px;
+                padding-right: 13px;
+                padding-left: 13px;
+                background-color: white;
+                border-style: solid;
+                border-width: 1px;
+                color:black;
+                font-family: Roboto,Arial;
+           }
+
+           .button:hover
+           {
+            animation: expand 1s, forwards;
+            cursor:pointer;
+
+           }
+           
+        @keyframes
+        expand
+        {
+            30%
+            {
+               background-color: lightblue; 
+               transform: translateX(30%);
+            }
+            60%
+            {
+                transform: translateX(-30%);
+
+            }
+            100%
+            {
+                transform: translateX(0%);
+
+            }
+        }
+           
+        </style>
+    </head>
+    <body>
+        <div class="MainContainer">
+                <img class="image" src="/Thumbnails/places-to-sell-clothes-online-main-square-01.webp">
+                <div class="tag">20% OFF</div>
+
+                <div class="light">
+                    <button class="button">
+                        Add to Cart
+                    </button>
+                </div>
+        </div>
+    </body>
+</html>

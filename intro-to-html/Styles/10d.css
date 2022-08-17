@@ -1,0 +1,57 @@
+div
+{
+    display: inline-block;
+    width:200px
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.p-p
+{
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 5px;
+}
+.Name
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left:5px;
+}
+.hs_p
+{
+    display: inline-block;
+    border-radius: 200px;
+     vertical-align: middle;
+    width: 30px;
+    margin-right: 5px;
+    margin-left:5px;
+}
+.mutual
+{
+    display: inline-block;
+    vertical-align: middle;
+    color:rgb(104, 104, 97);
+}
+.Add
+{
+    margin-top: 7px;
+    padding-right: 12px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    padding-left:12px;
+    padding-top:6px;
+    padding-bottom:6px;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    background-color:rgb(64, 151, 233);
+}
+.First-Horizontal
+{
+Width:200px;
+height:220px;
+box-shadow: 0px 0px 10px rgba(0,0,0,.6);
+}

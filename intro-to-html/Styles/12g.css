@@ -1,0 +1,70 @@
+.Rows
+{
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+   
+}
+.mainContainer
+{
+    display: flex;
+    height: 150px;
+    width: 140px;
+    flex-direction: row;
+    align-items: center;
+}
+.pic
+{
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+    object-position: center;
+    border-radius: 200px;
+}
+p{
+    margin:0;
+    font-family: Arial;
+}
+.Name
+{
+  font-weight: 700;
+  font-size: 15px; 
+  margin-bottom: 4px;  
+  margin-left: 13px;
+}
+.Highlight
+{
+    color: rgb(124, 121, 121);
+    font-size: 15px; 
+    margin-bottom: 4px;  
+    margin-left: 13px;
+
+}
+.Tag
+{
+    color: rgb(124, 121, 121);
+    font-size: 12px; 
+    margin-bottom: 4px;  
+    margin-left: 13px;
+
+}
+.Button
+{
+    color:white;
+    background-color: rgb(53, 135, 230);
+    border: none;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: color 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+.Button:hover
+{
+    color: rgb(53, 135, 230);
+    background-color: white;
+}

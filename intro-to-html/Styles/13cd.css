@@ -1,0 +1,67 @@
+div{
+    font-family: Roboto;
+    font-size: 13px;
+    color: rgb(167, 162, 162);
+
+}  
+
+.MainBox
+{
+     width: 400px;
+     height: 350px;
+     display: block;
+     box-shadow: 0px 0px 10px rgba(0,0,0, 0.3);
+     border-radius: 10px;
+}
+
+.Inbox
+{
+    font-weight: 500;
+    margin-left: 10px;
+    padding-top: 7px;
+}
+.InnerBoxes
+{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+    
+}
+.sale
+{
+    color: black;
+    font-weight: 600;
+    font-size:15px;
+    margin-top: 3px;
+}
+.texts
+{
+    flex:1;
+    margin-left: 15px;
+}
+.light
+{
+    margin-top:3px;
+}
+.image-pic
+{
+       height:45px;
+       object-fit: cover;
+       object-position: center;
+       width:45px;
+       border-radius: 23px;
+       margin-left: 10px;
+}
+.heading
+{
+    color: black;
+    font-weight: bold;
+    font-size:16px;
+}
+.inside-horizontal
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}

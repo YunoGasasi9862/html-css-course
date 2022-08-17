@@ -1,0 +1,40 @@
+.outsideContainer
+{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 30px;
+
+
+}
+body{
+    height:3000px;
+    margin:0;
+    padding:0;
+}
+.Title
+{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.This
+{
+    margin-left: 30px;
+    margin-top: 30px; 
+    font-size: 20px;
+    font-weight: 500;
+}
+.close
+{
+    margin-left: 30px;
+    margin-top: 30px; 
+    background-color: red;
+    color:white;
+    border-style: none;
+    height: 30px;
+    width: 100px;
+    
+}

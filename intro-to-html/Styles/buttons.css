@@ -1,0 +1,84 @@
+
+.subscribe-button {
+     background-color: rgb(201, 0, 0);
+     color: white;        
+     border: none;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 16px;
+     padding-right: 16px;
+     border-radius: 3px;
+     cursor: pointer;
+     margin-right: 8px;
+     margin-left: 30px;
+     transition: opacity 0.15s;  /*opacity is used as a parameter here*/
+     vertical-align: top; /*instead of aligning the text, it will align at top*/
+}
+
+.subscribe-button:hover
+{
+   opacity: 0.7;
+       
+
+}
+.subscribe-button:active
+{
+
+   opacity: 0.5;
+}
+
+.join-button {
+   background-color: white;
+   border-color: rgb(56, 79, 209);
+   border-style: solid;
+   border-width: 1.5px;
+   color: rgb(56, 79, 209);
+   border-radius: 2px;
+   cursor:pointer;
+   margin-right: 8px;
+   transition: color 0.15s, background-color 0.15s; /* this basically (transition) takes the parameter which component you want to transition with what time!!*/
+   padding-top: 9px;
+     padding-bottom: 9px;
+     padding-left: 16px;
+     padding-right: 16px;
+     vertical-align: top;
+}
+
+.Tweet-button
+{
+  color: white;
+  background-color: rgba(0, 115, 247, 0.788);
+   border-radius: 20px;
+
+   border: none;
+ 
+  border-color: rgba(0, 115, 247, 0.788);
+  cursor: pointer;
+  border-width: 2px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 0.15s;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   padding-left: 20px;
+   vertical-align: top;
+}
+ 
+.Tweet-button:hover
+{
+   box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+
+}
+
+.join-button:hover
+{
+   background-color: rgb(56, 79, 209);
+  color: white ;
+
+}
+.join-button:active
+{
+   opacity: 0.7;
+}
+

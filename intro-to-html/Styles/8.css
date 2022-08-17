@@ -1,0 +1,94 @@
+.First-Name, .Last-Name
+{
+ border-style: solid;
+ border-radius: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-color: rgb(228, 226, 225);
+ width: 150px;
+ display: inline-block;
+ padding-left: 10px;
+ 
+}
+.Email
+{
+ display: block;
+ width: 325px;
+ margin-top: 15px;
+ border-radius: 10px;
+ border-style: solid;
+ border-color: rgb(228, 226, 225);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+
+}
+.Sign-up
+{
+width: 340px;
+margin-top: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+color: white;
+font-weight: bold;
+border: none;
+display: block;
+background-color: rgb(46, 136, 238);
+border-radius: 10px;
+
+
+}
+.ride
+{
+
+display: block;
+font-weight: bold;
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 20px;
+
+}
+Input
+{
+    display: block;
+    border:none;
+    background-color: rgb(236, 241, 241);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+    font-weight: 400;
+}
+.pickup
+{
+
+    width: 300px;
+    margin-bottom: 15px;
+}
+.destin
+{
+  width:300px;
+  margin-bottom: 15px;
+}
+
+.Request
+{
+   display: inline-block;
+   width: 120px;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   border: none;
+   background-color: black;
+   color:white;
+}
+.Sechedule
+{
+    color: black;
+    margin-left: 15px;
+    width: 140px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    font-weight: 600;
+}

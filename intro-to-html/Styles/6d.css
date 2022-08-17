@@ -1,0 +1,24 @@
+p
+{
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Head
+{
+    margin-bottom: 15px;
+   font-weight:bold;
+   font-size: 30px;
+}
+.details
+{
+     font-weight: 400;
+     font-size: 20px;
+     margin-bottom: 10px;
+}
+.touch
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
